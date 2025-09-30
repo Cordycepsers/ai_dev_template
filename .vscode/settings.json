@@ -1,0 +1,553 @@
+{
+  // Editor settings optimized for AI-assisted development
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.fontFamily": "'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 120,
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  // Modern editor enhancements
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.indentation": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.insertMode": "replace",
+  "editor.suggest.preview": true,
+  "editor.suggest.showKeywords": true,
+  "editor.suggest.showSnippets": true,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "editor.quickSuggestionsDelay": 10,
+  "editor.parameterHints.enabled": true,
+  "editor.parameterHints.cycle": true,
+  "editor.hover.enabled": true,
+  "editor.hover.delay": 300,
+  "editor.hover.sticky": true,
+
+  // Modern problem and error visualization
+  "problems.visibility": true,
+  "problems.sortOrder": "severity",
+  "problems.showNearbyProblems": true,
+  "editor.lightbulb.enabled": "onCode",
+  "editor.codeLens": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.inlayHints.fontSize": 12,
+  "editor.inlayHints.fontFamily": "editor.fontFamily",
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.maxLineCount": 5,
+  "editor.unicodeHighlight.ambiguousCharacters": true,
+  "editor.unicodeHighlight.invisibleCharacters": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.renderControlCharacters": true,
+
+  // Enhanced navigation and selection  
+  "editor.gotoLocation.multipleReferences": "peek",
+  "editor.gotoLocation.multipleDefinitions": "peek",
+  "editor.gotoLocation.multipleDeclarations": "peek",
+  "editor.gotoLocation.multipleImplementations": "peek",
+  "editor.gotoLocation.multipleTypeDefinitions": "peek",
+  "editor.peekWidgetDefaultFocus": "editor",
+  "editor.definitionLinkOpensInPeek": false,
+  "editor.selectionHighlight": true,
+  "editor.occurrencesHighlight": "multiFile",
+  "editor.wordHighlightBackground": "#575757b8",
+  "editor.wordHighlightStrongBackground": "#004972b8",
+  "editor.linkedEditing": true,
+
+  // GitHub Copilot settings
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "python": true,
+    "javascript": true,
+    "typescript": true,
+    "json": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.chat.localeOverride": "en",
+
+  // Claude Code integration
+  "claude.apiKey": "${CLAUDE_API_KEY}",
+  "claude.model": "claude-3-5-sonnet-20241022",
+  "claude.maxTokens": 4096,
+  "claude.temperature": 0.1,
+  "claude.enableCodeCompletion": true,
+  "claude.enableChatMode": true,
+
+  // File associations for AI tools
+  "files.associations": {
+    "*.md": "markdown",
+    "AGENTS.md": "markdown",
+    "*.agents": "markdown",
+    ".taskmaster/**/*.md": "markdown",
+    "*.prompt": "plaintext",
+    "*.ai": "plaintext"
+  },
+
+  // Search and file explorer
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.ai-cache": true,
+    "**/usage-data": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": false
+  },
+
+  // Terminal settings (modernized)
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "'Fira Code', 'Cascadia Code', monospace",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fastScrollSensitivity": 5,
+  "terminal.integrated.mouseWheelScrollSensitivity": 1,
+  "terminal.integrated.bellStyle": "none",
+  "terminal.integrated.copyOnSelection": false,
+  "terminal.integrated.rightClickBehavior": "default",
+
+  // Enhanced search settings
+  "search.smartCase": true,
+  "search.globalFindClipboard": false,
+  "search.seedOnFocus": true,
+  "search.seedWithNearestWord": false,
+  "search.searchOnType": true,
+  "search.searchOnTypeDebouncePeriod": 300,
+  "search.quickOpen.includeSymbols": true,
+  "search.quickOpen.includeHistory": true,
+  "search.followSymlinks": true,
+  "search.collapseResults": "auto",
+  "search.showLineNumbers": true,
+  "search.actionsPosition": "right",
+
+  // Git settings (enhanced)
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "git.autorefresh": true,
+  "git.allowForcePush": false,
+  "git.alwaysShowStagedChangesResourceGroup": false,
+  "git.alwaysSignOff": false,
+  "git.branchValidationRegex": "",
+  "git.branchWhitespaceChar": "·",
+  "git.checkoutType": "all",
+  "git.closeDiffOnOperation": false,
+  "git.decorations.enabled": true,
+  "git.detectSubmodules": true,
+  "git.detectSubmodulesLimit": 10,
+  "git.enableStatusBarSync": true,
+  "git.fetchOnPull": false,
+  "git.followTagsWhenSync": false,
+  "git.ignoreLegacyWarning": true,
+  "git.ignoreMissingGitWarning": false,
+  "git.ignoreRebaseWarning": false,
+  "git.ignoreSubmodules": false,
+  "git.ignoreWindowsGit27Warning": false,
+  "git.inputValidation": "warn",
+  "git.inputValidationLength": 72,
+  "git.inputValidationSubjectLength": 50,
+  "git.openRepositoryInParentFolders": "prompt",
+  "git.postCommitCommand": "none",
+  "git.promptToSaveFilesBeforeCommit": "always",
+  "git.promptToSaveFilesBeforeStash": "always",
+  "git.pruneOnFetch": false,
+  "git.pullBeforeCheckout": false,
+  "git.rebaseWhenSync": false,
+  "git.replaceTagsWhenPull": false,
+  "git.repositoryScanIgnoredFolders": [
+    "node_modules"
+  ],
+  "git.repositoryScanMaxDepth": 1,
+  "git.requireGitUserConfig": true,
+  "git.showActionButton": {
+    "commit": true,
+    "publish": true,
+    "sync": true
+  },
+  "git.showInlineOpenFileAction": true,
+  "git.showProgress": true,
+  "git.showPushSuccessNotification": false,
+  "git.showUnpublishedCommitsButton": "whenAhead",
+  "git.similarityThreshold": 50,
+  "git.smartCommitChanges": "all",
+  "git.suggestSmartCommit": true,
+  "git.timeline.date": "committed",
+  "git.timeline.showAuthor": true,
+  "git.timeline.showUncommitted": false,
+  "git.untrackedChanges": "mixed",
+  "git.useCommitInputAsStashMessage": false,
+  "git.useEditorAsCommitInput": false,
+  "git.useForcePushWithLease": true,
+  "git.verboseCommit": false,
+
+  // Diff editor enhancements
+  "diffEditor.codeLens": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.insertCharset": "advanced",
+  "diffEditor.maxComputationTime": 5000,
+  "diffEditor.maxFileSize": 50,
+  "diffEditor.renderIndicators": true,
+  "diffEditor.renderMarginRevertIcon": true,
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.wordWrap": "off",
+
+  // Language-specific settings
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+
+  // Shell script support
+  "[shellscript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 4,
+    "files.eol": "\n"
+  },
+
+  // Shellcheck settings - disable if not installed to prevent errors
+  "shellcheck.enable": true,
+  "shellcheck.enableQuickFix": true,
+  "shellcheck.run": "onType",
+  "shellcheck.executablePath": "shellcheck",
+  "shellcheck.exclude": [],
+  "shellcheck.customArgs": [],
+  "shellcheck.ignorePatterns": {},
+  "shellcheck.useWorkspaceRootAsCwd": false,
+  "shellcheck.disableVersionCheck": true,
+
+  // AI-specific file handling
+  "[agents]": {
+    "editor.wordWrap": "on",
+    "editor.lineNumbers": "on"
+  },
+
+  // Taskmaster integration
+  "taskmaster.enabled": true,
+  "taskmaster.autoRefresh": true,
+  "taskmaster.showInStatusBar": true,
+  "taskmaster.defaultTaskTemplate": ".taskmaster/templates/default-task.md",
+
+  // Budget and usage tracking
+  "aiUsage.trackTokens": true,
+  "aiUsage.budgetLimit": 100,
+  "aiUsage.alertThreshold": 0.8,
+  "aiUsage.logFile": "usage-data/daily-usage.json",
+
+  // ADHD-friendly settings (enhanced)
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tips.enabled": false,
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+
+  // Modern workbench enhancements
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.closeOnFileDelete": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.labelFormat": "default",
+  "workbench.editor.limit.enabled": false,
+  "workbench.editor.limit.perEditorGroup": false,
+  "workbench.editor.limit.value": 10,
+  "workbench.editor.openPositioning": "right",
+  "workbench.editor.openSideBySideDirection": "right",
+  "workbench.editor.pinnedTabSizing": "normal",
+  "workbench.editor.restoreViewState": true,
+  "workbench.editor.scrollToSwitchTabs": false,
+  "workbench.editor.showIcons": true,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.splitInGroupLayout": "horizontal",
+  "workbench.editor.splitOnDragAndDrop": true,
+  "workbench.editor.splitSizing": "distribute",
+  "workbench.editor.tabCloseButton": "right",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.editor.untitled.hint": "text",
+  "workbench.editor.wrapTabs": false,
+  "workbench.editorAssociations": {},
+  "workbench.fontAliasing": "auto",
+  "workbench.hover.delay": 1500,
+  "workbench.list.openMode": "singleClick",
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.panel.opensMaximized": "never",
+  "workbench.quickOpen.closeOnFocusLost": true,
+  "workbench.quickOpen.preserveInput": false,
+  "workbench.reduceMotion": "off",
+  "workbench.settings.editor": "ui",
+  "workbench.settings.enableNaturalLanguageSearch": true,
+  "workbench.settings.openDefaultKeybindings": false,
+  "workbench.settings.openDefaultSettings": false,
+  "workbench.settings.useSplitJSON": false,
+  "workbench.sideBar.location": "left",
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 8,
+  "workbench.tree.renderIndentGuides": "onHover",
+
+  // Focus and distraction management
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideActivityBar": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.hideTabs": false,
+  "zenMode.restore": true,
+
+  // Performance optimizations (enhanced)
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.ai-cache/**": true,
+    "**/usage-data/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.vscode/**": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "files.hotExit": "onExitAndWindowClose",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.defaultLanguage": "",
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.restoreUndoStack": true,
+  "files.saveConflictResolution": "askUser",
+  "files.simpleDialog.enable": false,
+  "files.trimFinalNewlines": false,
+  "files.trimTrailingWhitespace": false,
+
+  // Accessibility enhancements
+  "accessibility.signals.lineHasBreakpoint": {
+    "sound": "on"
+  },
+  "accessibility.signals.lineHasError": {
+    "sound": "on"
+  },
+  "accessibility.signals.lineHasFoldedArea": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasInlineSuggestion": {
+    "sound": "off"
+  },
+  "accessibility.signals.onDebugBreak": {
+    "sound": "on"
+  },
+  "accessibility.signals.noInlayHints": {
+    "sound": "off"
+  },
+  "accessibility.signals.taskCompleted": {
+    "sound": "on"
+  },
+  "accessibility.signals.taskFailed": {
+    "sound": "on"
+  },
+  "accessibility.signals.terminalCommandFailed": {
+    "sound": "on"
+  },
+  "accessibility.signals.terminalQuickFix": {
+    "sound": "on"
+  },
+  "accessibility.verbosity.inlineCompletions": false,
+  "accessibility.verbosity.keybindings": false,
+  "accessibility.verbosity.terminal": false,
+
+  // Modern debugging enhancements
+  "debug.allowBreakpointsEverywhere": false,
+  "debug.autoExpandLazyVariables": false,
+  "debug.confirmOnExit": "never",
+  "debug.console.acceptSuggestionOnEnter": "off",
+  "debug.console.closeOnEnd": false,
+  "debug.console.collapseIdenticalLines": true,
+  "debug.console.fontSize": 14,
+  "debug.console.fontFamily": "default",
+  "debug.console.lineHeight": 0,
+  "debug.console.wordWrap": true,
+  "debug.focusEditorOnBreak": true,
+  "debug.focusWindowOnBreak": true,
+  "debug.hideActionBar": false,
+  "debug.inlineValues": "auto",
+  "debug.internalConsoleOptions": "neverOpen",
+  "debug.openDebug": "openOnSessionStart",
+  "debug.openExplorerOnEnd": false,
+  "debug.saveBeforeStart": "allEditorsInActiveGroup",
+  "debug.showBreakpointsInOverviewRuler": false,
+  "debug.showInlineBreakpointCandidates": true,
+  "debug.showSubSessionsInToolBar": false,
+  "debug.terminal.clearBeforeReusing": false,
+  "debug.toolBarLocation": "floating",
+
+  // AI prompt templates
+  "aiPrompts.templates": {
+    "codeReview": "Please review this code for best practices, potential bugs, and optimization opportunities:",
+    "documentation": "Generate comprehensive documentation for this code including usage examples:",
+    "testing": "Create unit tests for this function with edge cases and error handling:",
+    "refactor": "Refactor this code to improve readability, performance, and maintainability:",
+    "debug": "Help me debug this issue. Here's the error and relevant code:"
+  },
+
+  // Custom keybindings for AI tools
+  "keyboard.dispatch": "keyCode",
+  
+  // Enhanced security and workspace trust
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.emptyWindow": true,
+  "security.workspace.trust.enabled": true,
+
+  // Modern notification and telemetry settings
+  "telemetry.telemetryLevel": "error",
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.mode": "start",
+  "update.showReleaseNotes": false,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.closeExtensionDetailsOnViewChange": false,
+  "extensions.confirmedUriHandlerExtensionIds": [],
+  "extensions.ignoreRecommendations": false,
+  "extensions.showRecommendationsOnlyOnDemand": false,
+
+  // Enhanced integrated terminal
+  "terminal.integrated.allowChords": true,
+  "terminal.integrated.allowMnemonics": false,
+  "terminal.integrated.altClickMovesCursor": true,
+  "terminal.integrated.automationProfile.linux": null,
+  "terminal.integrated.automationProfile.osx": null,
+  "terminal.integrated.automationProfile.windows": null,
+  "terminal.integrated.commandsToSkipShell": [],
+  "terminal.integrated.confirmOnExit": "never",
+  "terminal.integrated.confirmOnKill": "editor",
+  "terminal.integrated.cwd": "",
+  "terminal.integrated.detectLocale": "auto",
+  "terminal.integrated.drawBoldTextInBrightColors": true,
+  "terminal.integrated.enableBell": false,
+  "terminal.integrated.enableFileLinks": "on",
+  "terminal.integrated.enableMultiLinePasteWarning": true,
+  "terminal.integrated.enablePersistentSessions": true,
+  "terminal.integrated.experimentalBufferImpl": "TypedArray",
+  "terminal.integrated.gpuAcceleration": "auto",
+  "terminal.integrated.hideOnStartup": "never",
+  "terminal.integrated.ignoreBracketedPasteMode": false,
+  "terminal.integrated.localEchoEnabled": "auto",
+  "terminal.integrated.localEchoExcludePrograms": ["vim", "vi", "nano", "tmux"],
+  "terminal.integrated.localEchoLatencyThreshold": 30,
+  "terminal.integrated.localEchoStyle": "dim",
+  "terminal.integrated.minimumContrastRatio": 4.5,
+  "terminal.integrated.persistentSessionReviveProcess": "onExit",
+  "terminal.integrated.profiles.linux": {},
+  "terminal.integrated.profiles.osx": {},
+  "terminal.integrated.profiles.windows": {},
+  "terminal.integrated.sendKeybindingsToShell": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "both",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.shellIntegration.history": 100,
+  "terminal.integrated.shellIntegration.showWelcome": true,
+  "terminal.integrated.showExitAlert": true,
+  "terminal.integrated.splitCwd": "workspaceRoot",
+  "terminal.integrated.tabs.defaultColor": null,
+  "terminal.integrated.tabs.defaultIcon": "terminal",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.tabs.hideCondition": "never",
+  "terminal.integrated.tabs.location": "right",
+  "terminal.integrated.tabs.showActiveTerminal": "singleTerminal",
+  "terminal.integrated.tabs.showActions": "singleTerminal",
+  "terminal.integrated.unicodeVersion": "11.0",
+  "terminal.integrated.useWslProfiles": true,
+  "terminal.integrated.windowsEnableConpty": true,
+  "terminal.integrated.wordSeparators": " ()[]{}',\":;",
+
+  // Enhanced explorer and file management  
+  "explorer.autoReveal": "focusNoScroll",
+  "explorer.compactFolders": true,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.decorations.badges": true,
+  "explorer.decorations.colors": true,
+  "explorer.enableDragAndDrop": true,
+  "explorer.expandSingleFolderWorkspaces": true,
+  "explorer.fileNesting.enabled": false,
+  "explorer.fileNesting.expand": true,
+  "explorer.fileNesting.patterns": {},
+  "explorer.incrementalNaming": "smart",
+  "explorer.openEditors.minVisible": 0,
+  "explorer.openEditors.sortOrder": "editorOrder",
+  "explorer.openEditors.visible": 9,
+  "explorer.sortOrder": "default",
+  "explorer.sortOrderLexicographicOptions": "default"
+}
+

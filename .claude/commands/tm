@@ -1,0 +1,49 @@
+#!/usr/bin/env node
+
+/**
+ * Claude Code Integration for Task Master
+ * 
+ * This script provides Claude Code with direct access to Task Master commands
+ * for seamless task management and workflow integration.
+ */
+
+const { execSync } = require('child_process');
+const path = require('path');
+
+// Get the command and arguments
+const [,, command, ...args] = process.argv;
+
+// Map of available Task Master commands
+const commands = {
+  'list': 'task-master list',
+  'next': 'task-master next',
+  'status': 'task-master status',
+  'get': 'task-master get',
+  'set-status': 'task-master set-status',
+  'update': 'task-master update',
+  'parse-prd': 'task-master parse-prd',
+  'expand': 'task-master expand',
+  'help': 'task-master help'
+};
+
+// Validate command
+if (!command || !commands[command]) {
+  console.log('Available Task Master commands:');
+  Object.keys(commands).forEach(cmd => {
+    console.log(`  tm ${cmd}`);
+  });
+  process.exit(1);
+}
+
+try {
+  // Execute the Task Master command
+  const fullCommand = `${commands[command]} ${args.join(' ')}`.trim();
+  const result = execSync(fullCommand, { 
+    encoding: 'utf8',
+    stdio: 'inherit'
+  });
+} catch (error) {
+  console.error(`Error executing command: ${error.message}`);
+  process.exit(1);
+}
+

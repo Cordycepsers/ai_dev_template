@@ -1,0 +1,85 @@
+{
+  // AI Coding Assistants
+  // Task Management and Productivity  
+  // Code Quality and Formatting
+  // Language Support
+  // Git and Version Control
+  // Development Tools
+  // UI and Themes (ADHD-friendly)
+  // Productivity and Focus
+  // Documentation and Comments
+  // API and Database Tools
+  // Cloud and Deployment
+  // Debugging and Testing
+  // File Management
+  // Performance and Monitoring
+  // ADHD-Specific Productivity
+  // Shell script support
+  "recommendations": [
+    "github.copilot",
+    "github.copilot-chat",
+    "anthropic.claude-code",
+    "gruntfuggly.todo-tree",
+    "aaron-bond.better-comments",
+    "alefragnani.bookmarks",
+    "wayou.vscode-todo-highlight",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-python.black-formatter",
+    "bradlc.vscode-tailwindcss",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-vscode.vscode-typescript-next",
+    "redhat.vscode-yaml",
+    "yzhang.markdown-all-in-one",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "donjayamanne.githistory",
+    "ms-vscode.vscode-docker",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "hashicorp.terraform",
+    "humao.rest-client",
+    "rangav.vscode-thunder-client",
+    "pkief.material-icon-theme",
+    "github.github-vscode-theme",
+    "dracula-theme.theme-dracula",
+    "monokai.theme-monokai-pro-vscode",
+    "vscodevim.vim",
+    "ms-vscode.vscode-keybindings",
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "mintlify.document",
+    "streetsidesoftware.code-spell-checker",
+    "davidanson.vscode-markdownlint",
+    "ms-vscode.vscode-sqlite",
+    "cweijan.vscode-mysql-client2",
+    "ms-vscode.vscode-postman",
+    "ms-vscode.vscode-azure-account",
+    "googlecloudtools.cloudcode",
+    "amazonwebservices.aws-toolkit-vscode",
+    "ms-vscode.test-adapter-converter",
+    "ms-python.python-test-adapter",
+    "hbenl.vscode-test-explorer",
+    "alefragnani.project-manager",
+    "ms-vscode.vscode-file-watcher",
+    "formulahendry.auto-close-tag",
+    "ms-vscode.vscode-performance-profiler",
+    "ms-vscode.vscode-memory-usage",
+    "pomodoro-timer.pomodoro-timer",
+    "gruntfuggly.activitusbar",
+    "johnpapa.vscode-peacock",
+    "oderwat.indent-rainbow",
+    "timonwong.shellcheck"
+  ],
+  // Extensions that might conflict with AI tools or slow down the editor
+  "unwantedRecommendations": [
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "ms-vscode.vscode-copilot-legacy",
+    "ms-vscode.vscode-live-server-plus-plus",
+    "ritwickdey.liveserver",
+    "ms-python.pylint",
+    "ms-python.flake8",
+    "coenraads.bracket-pair-colorizer-2"
+  ]
+}

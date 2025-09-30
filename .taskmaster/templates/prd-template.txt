@@ -1,0 +1,163 @@
+# Product Requirements Document (PRD) Template
+
+## Overview
+[Provide a high-level overview of your product/project. Explain what problem it solves, who it's for, and why it's valuable. This section should be clear enough that someone unfamiliar with the project can understand the core concept.]
+
+**Problem Statement:**
+[What specific problem are you solving?]
+
+**Target Users:**
+[Who will use this product/feature?]
+
+**Value Proposition:**
+[Why should users care? What's the key benefit?]
+
+## Core Features
+[List and describe the main features of your product. For each feature, include:
+- What it does
+- Why it's important  
+- How it works at a high level]
+
+### Feature 1: [Feature Name]
+**Description:** [What this feature does]
+**Priority:** [High/Medium/Low]
+**User Story:** As a [user type], I want [functionality] so that [benefit].
+**Acceptance Criteria:**
+- [ ] Criterion 1
+- [ ] Criterion 2
+- [ ] Criterion 3
+
+### Feature 2: [Feature Name]
+**Description:** [What this feature does]
+**Priority:** [High/Medium/Low]
+**User Story:** As a [user type], I want [functionality] so that [benefit].
+**Acceptance Criteria:**
+- [ ] Criterion 1
+- [ ] Criterion 2
+- [ ] Criterion 3
+
+## User Experience
+[Describe the user journey and experience. Include:
+- User personas
+- Key user flows
+- UI/UX considerations]
+
+**Primary User Persona:**
+- **Name:** [Persona name]
+- **Role:** [Job title/role]
+- **Goals:** [What they want to achieve]
+- **Pain Points:** [Current challenges]
+- **Tech Comfort:** [Technical skill level]
+
+**Key User Flows:**
+1. [Flow 1]: [Step-by-step description]
+2. [Flow 2]: [Step-by-step description]
+3. [Flow 3]: [Step-by-step description]
+
+## Technical Architecture
+[Outline the technical implementation details:
+- System components
+- Data models
+- APIs and integrations
+- Infrastructure requirements]
+
+**Technology Stack:**
+- **Frontend:** [Framework/library]
+- **Backend:** [Framework/language]
+- **Database:** [Database type and system]
+- **Hosting:** [Cloud provider/platform]
+- **APIs:** [External services and integrations]
+
+**System Components:**
+1. [Component 1]: [Description and responsibility]
+2. [Component 2]: [Description and responsibility]
+3. [Component 3]: [Description and responsibility]
+
+**Data Models:**
+- [Model 1]: [Fields and relationships]
+- [Model 2]: [Fields and relationships]
+
+## Development Roadmap
+[Break down the development process into phases:
+- MVP requirements
+- Future enhancements
+- Focus on scope and what needs to be built in each phase]
+
+### Phase 1: MVP (Minimum Viable Product)
+**Goal:** [What you want to achieve with the MVP]
+**Timeline:** [Estimated duration]
+**Features:**
+- [ ] [Feature 1]
+- [ ] [Feature 2]
+- [ ] [Feature 3]
+
+**Definition of Done:**
+[Clear criteria for when Phase 1 is complete]
+
+### Phase 2: [Enhancement Phase]
+**Goal:** [What you want to achieve]
+**Features:**
+- [ ] [Feature 1]
+- [ ] [Feature 2]
+- [ ] [Feature 3]
+
+### Phase 3: [Future Phase]
+**Goal:** [What you want to achieve]
+**Features:**
+- [ ] [Feature 1]
+- [ ] [Feature 2]
+- [ ] [Feature 3]
+
+## Success Metrics
+[How will you measure success?]
+- **User Metrics:** [DAU, retention, etc.]
+- **Business Metrics:** [Revenue, conversion, etc.]
+- **Technical Metrics:** [Performance, uptime, etc.]
+
+## Constraints & Assumptions
+**Technical Constraints:**
+- [Constraint 1]
+- [Constraint 2]
+
+**Business Constraints:**
+- [Budget limitations]
+- [Timeline constraints]
+- [Resource limitations]
+
+**Assumptions:**
+- [Assumption 1]
+- [Assumption 2]
+
+## Risks & Mitigations
+[Identify potential risks and how they'll be addressed]
+
+**Risk 1:** [Description]
+- **Impact:** [High/Medium/Low]
+- **Probability:** [High/Medium/Low]
+- **Mitigation:** [How to address it]
+
+**Risk 2:** [Description]
+- **Impact:** [High/Medium/Low]
+- **Probability:** [High/Medium/Low]
+- **Mitigation:** [How to address it]
+
+## Dependencies
+[What external factors does this project depend on?]
+- [Dependency 1]: [Description and impact]
+- [Dependency 2]: [Description and impact]
+
+## Open Questions
+[List any unresolved questions that need answers]
+- [ ] [Question 1]
+- [ ] [Question 2]
+- [ ] [Question 3]
+
+---
+
+**Instructions for Use:**
+1. Fill out this template completely before starting development
+2. Save as `.taskmaster/docs/prd.txt`
+3. Run `task-master parse-prd .taskmaster/docs/prd.txt` to generate tasks
+4. Review and refine the generated tasks as needed
+5. Start development with `task-master next`
+
